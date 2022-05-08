@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>images Slider</title>
+</head>
+<body>
+    <div class="slider-container" id="img1">
+    <div
+        class="slide active"
+        style="
+        background-image: url('./imgs/img2.jpg');
+        "
+    ></div>
+    <div
+        class="slide"
+        style="
+        background-image: url('./imgs/img3.jpg');
+        "
+    ></div>
+    <div
+        class="slide"
+        style="
+        background-image: url('./imgs/img4.jpg');
+        "
+    ></div>
+    <div
+        class="slide"
+        style="
+        background-image: url('./imgs/img5.jpg');
+        "
+    ></div>
+    <div
+        class="slide"
+        style="
+        background-image: url('./imgs/img6.jpg');
+        "
+    ></div>
+    
+    </div>
+    <div>
+        <input  id="start" type="button" value="start Show" onclick="start()"  />
+    <input  id="right" type="button" value="next" onclick="next()"/>
+    <input id="left" type="button" value="previous" onclick="prev()"/>
+    <input  id="stop" type="button" value="end Show" onclick="stop()"
+    onclick="stop()"/>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
